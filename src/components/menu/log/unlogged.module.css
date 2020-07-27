@@ -1,0 +1,24 @@
+.signup{
+  border:lightblue;
+  background-color: lightblue;
+  color:red;
+
+
+}
+.signin{
+  border:lightblue;
+  background-color: lightblue;
+  color:red
+
+
+}
+.all{
+  vertical-align: center
+}
+.signup{
+  text-decoration:none;
+  color:red
+}
+a{
+  text-decoration: none;
+}

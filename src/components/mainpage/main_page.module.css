@@ -1,0 +1,33 @@
+body{
+  background: lightblue;
+  position: relative;
+}
+.all{
+  z-index:3;
+}
+.styleForButton{
+  font-family: brush script mt;
+  width:5%;
+  height:5%;
+}
+.search{
+  text-align:center;
+  margin:2px;
+  margin-right:10%;
+  margin-left:10%;
+}
+.strInput{
+  width:60%;
+  height:5%;
+}
+.imageBox{
+  margin-bottom:-8px;
+  width:2%;
+  height:3%;
+}
+.navlink{
+
+}
+li{
+  list-style-type: none;
+}

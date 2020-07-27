@@ -1,0 +1,13 @@
+.hideTrashBox{
+    background-color: white;
+    border :0.4px black solid;
+    border-radius:2px;
+    width:200px;
+    margin-left: 75.3%;
+    font-size:12px;
+    margin-top:-2px;
+    position:absolute;
+}
+.trash{
+  text-align:right;
+}

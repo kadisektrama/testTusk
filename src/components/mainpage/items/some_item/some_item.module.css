@@ -1,0 +1,21 @@
+.im{
+  width:180px;
+}
+.int{
+      border: 1px solid black; /* Параметры границы */
+      padding: 2px;
+}
+.average{
+  width:auto;
+
+}
+.t{
+  text-align: left;
+  margin-left: 5px;
+}
+.b{
+  background-color: red;
+  border:black solid 1.5px;
+  float:right;
+  margin-right: 5px;
+}
