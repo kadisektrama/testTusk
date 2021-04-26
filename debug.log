@@ -1,0 +1,6 @@
+[1026/151702.838:ERROR:directory_reader_win.cc(43)] FindFirstFile: Системе не удается найти указанный путь. (0x3)
+[1028/111728.475:ERROR:directory_reader_win.cc(43)] FindFirstFile: Системе не удается найти указанный путь. (0x3)
+[1106/013953.050:ERROR:directory_reader_win.cc(43)] FindFirstFile: Системе не удается найти указанный путь. (0x3)
+[1106/013953.060:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\amoral\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\9f4fabde-31a9-4e81-ab96-bb0e06cb003c: Системе не удается найти указанный путь. (0x3)
+[1107/173419.177:ERROR:directory_reader_win.cc(43)] FindFirstFile: Системе не удается найти указанный путь. (0x3)
+[1107/185758.967:ERROR:directory_reader_win.cc(43)] FindFirstFile: Системе не удается найти указанный путь. (0x3)

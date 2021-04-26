@@ -1,5 +1,5 @@
 import React from "react"
-import Menu from "./Menu"
+import {Help} from "./help"
 import {shallow,configure} from "enzyme"
 import Adapter from 'enzyme-adapter-react-16';
 
@@ -14,16 +14,13 @@ describe("test(proverka)",() => {
 
 
     it("Render component",() => {
-        const wrapper = shallow(<Menu/>);
+        const wrapper = shallow(<Help/>);
         expect(wrapper.exists()).toBe(true);
     })
     it("Render first <div/>",() => {
-        const wrapper = shallow(<Menu/>);
+        const wrapper = shallow(<Help/>);
         expect(wrapper.find("div").exists()).toBe(true);
     })
-    it("Find <header/>",() => {
-        const wrapper = shallow(<Menu/>);
-        expect(wrapper.find("header").exists()).toBe(false);
-    })
+
 
 })

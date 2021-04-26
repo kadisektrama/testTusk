@@ -7,12 +7,10 @@ import App from './containers/App';
 import  "./redux/redux";
 import store from "./redux/redux"
 import * as serviceWorker from './serviceWorker';
-import State from "./redux/state"
 
 
-// setTimeout(()=>{
-//   stor.dispatch({type:"ADD_BOOK",text:"ti pidor"});
-// },1000);
+
+
 var Store = store()
 
 const Show = (state) => {
@@ -24,7 +22,7 @@ const Show = (state) => {
 </BrowserRouter> , document.getElementById('root'));
 }
 Show(Store);
-State.Subscribe(Show)
+
 
 
 

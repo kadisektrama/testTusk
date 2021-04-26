@@ -1,6 +1,6 @@
 import React from "react"
-import Some_item from "./some_item/some_item"
-import s from "./item.module.css"
+import SomeItem from "./some_item/some_item"
+import s from "./item.module.scss"
 
 export default (props) =>{
   const isReady = {props}
@@ -10,7 +10,7 @@ export default (props) =>{
       {!isReady?
         "Loading...":
         props.books && props.books.map(item => (
-      <Some_item  {...item} addBookToBox = {props.addBookToBox}/>
+      <SomeItem  {...item} addBookToBox = {props.addBookToBox}/>
       ))}
     </ul>
   )

@@ -1,6 +1,6 @@
 import React from "react"
 
-import s from "./some_item.module.css"
+import s from "./some_item.module.scss"
 
 export default (props)=>{
   const click = () => {

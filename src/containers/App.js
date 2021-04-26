@@ -1,5 +1,5 @@
 import {connect} from "react-redux"
-import {select,selectReady,addBookToBox,changestate,registrationon,login} from "../redux/actions/selectAction"
+import {select,selectReady,addBookToBox,changestate,registrationon,logged,selectUsers,unlogged} from "../redux/actions/selectAction"
 import App from "../components/App"
 
 const mapStateToProps = ({books,trashBox,login}) => ({
@@ -9,7 +9,8 @@ const mapStateToProps = ({books,trashBox,login}) => ({
    box:trashBox.box,
    searching:books.searching,
    state:trashBox.state,
-   loggedform:login.logged
+   loggedform:login.logged,
+   users:login.items
 })
 const matchDispatchToProps = dispatch => ({
    select:payload => dispatch(select(payload)),
@@ -17,7 +18,10 @@ const matchDispatchToProps = dispatch => ({
    addBookToBox:payload => dispatch(addBookToBox(payload)),
    changestate:dispatch(changestate()),
    registrationon:payload => dispatch(registrationon(payload)),
-   login:payload => dispatch(login(payload))
+   logged:payload => dispatch(logged(payload)),
+   selectUsers:payload => dispatch(selectUsers(payload)),
+   unlogged:payload => dispatch(unlogged(payload))
+
 
 })
 

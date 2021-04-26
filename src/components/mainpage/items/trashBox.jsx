@@ -1,5 +1,5 @@
 import React from "react"
-import s from "./trashBox.module.css"
+import s from "./trashBox.module.scss"
 
 
 export default (props) => {

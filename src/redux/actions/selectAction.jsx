@@ -33,10 +33,28 @@ export const registrationon = payload => {
   }
 }
 
-export const login = payload => {
+
+export const logged = payload => {
   console.log("logining")
   return{
-    type:"LOGIN",
+    type:"LOGGED",
     payload:payload
   }
 }
+
+export const selectUsers = payload =>{
+  console.log("ti urod!")
+  return{
+    type:"SET_USERS",
+    payload:payload
+  }
+}
+
+export const unlogged = payload => {
+  console.log("unlogining")
+  return{
+    type:"UNLOGGED",
+    payload:payload
+  }
+}
+

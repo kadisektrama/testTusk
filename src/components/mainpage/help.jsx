@@ -7,17 +7,17 @@ export class Help extends React.Component {
       upd:false
     };
     this.updates = this.updates.bind(this);
-    this.change = this. change.bind(this)
+    this.change = this.change.bind(this)
   }
 
   updates(props) {
     this.setState({
     upd : !this.state.upd
   })
-    console.log("sosi jopu!)")
+    console.log("!")
   };
   change(){
-    this.state.text="fdg"
+    this.setState({text:"fdg"})
   }
   render(){
   return(

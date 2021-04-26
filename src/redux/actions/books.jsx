@@ -10,12 +10,10 @@ export default  (state=initialState,action) => {
     case "SET_BOOKS":
       return {...state,items:action.payload,isReady:true};
     case 'SET_IS_READY':{
-      return{...state,
-      isReady:action.payload}
-      break;
+      return{...state,isReady:action.payload}
     }
     case "ADD_SEARCHING":{
-
+        break;
     }
 
     default: return state;

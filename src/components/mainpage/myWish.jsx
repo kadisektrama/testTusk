@@ -1,6 +1,6 @@
-import React from "react"
+import React,{useState,useEffect} from "react"
 import {Redirect} from "react-router-dom"
-export class My_wish extends React.Component {
+export class MyWish extends React.Component {
   constructor(props){
     super(props)
     this.state={
@@ -9,12 +9,12 @@ export class My_wish extends React.Component {
     this.onClick = this.onClick.bind(this);
   }
   onClick(){
-    console.log("sosi");
+    console.log("");
     this.setState({x : !this.state.x})
     console.log(this.state.x)
   }
   render(){
-    if(this.state.x == true)
+    if(this.state.x === true)
       return <Redirect to="/help" />
   return(
     <div>

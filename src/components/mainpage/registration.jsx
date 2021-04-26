@@ -1,42 +1,41 @@
 import React from "react"
-import s from "./registration.module.css"
-import {NavLink,Redirect,useHistory} from 'react-router-dom'
+import s from "./registration.module.scss"
+import axios from "axios"
+import {NavLink} from 'react-router-dom'
 
 
 export class Registration extends React.Component {
   constructor(props){
   super(props);
   this.state={
-  ref0 :React.createRef(),
-  ref1: React.createRef(),
-  ref2: React.createRef(),
-  ref3: React.createRef(),
-  ref4: React.createRef(),
+
   x:false,
-  authFails:true
+  auth:false
   }
   this.onClick = this.onClick.bind(this)
 }
 
-
   onClick(){
-    console.log(this.state.ref1.current.value,this.state.ref2.current.value)
-    if(true){
-      return <Redirect to='/help' />
+    console.log(this.state.ref3,this.state.ref4)
+    function getRandomInt(max) {
+      return Math.floor(Math.random() * Math.floor(max));
     }
-    if(this.state.ref3.current.value == this.state.ref4.current.value){
+    if(document.getElementById("password").value === document.getElementById("repeat_password").value){
       alert("correct")
-      console.log(this.state.ref3.current.value,this.state.ref4.current.value)
       let item = {
-        "login":this.state.ref0.current.value,
-        "name":this.state.ref1.current.value,
-        "surname":this.state.ref2.current.value,
-        "password":this.state.ref3.current.value
+        "login":document.getElementById("login").value,
+        "name":document.getElementById("name").value,
+        "surname":document.getElementById("surname").value,
+        "password":document.getElementById("password").value,
+        "id":getRandomInt(10000)
       }
+      axios.post('http://localhost:3000/users',item)
       this.props.registrationon({item});
+      this.setState({auth:true})
+      localStorage.logged = true
 
     }else{
-      alert("uncorrect")
+      alert("incorrect")
       return 1
     }
 
@@ -46,14 +45,14 @@ render(){
 
   return(
     <div className={s.main}>
-      Login:<input ref={this.state.ref0}></input><br/>
-      Name:<input ref={this.state.ref1}></input><br/>
-      Surn:<input ref={this.state.ref2}></input><br/>
-      Passw:<input ref={this.state.ref3}></input><br/>
-      Repeat passw:<input ref={this.state.ref4}></input><br />
+      Login:<input className={1} id="login"></input><br/>
+      Name:<input  className={2} id="name"></input><br/>
+      Surn:<input className={3} id="surname"></input><br/>
+      Passw:<input className={4} id="password"></input><br/>
+      Repeat passw:<input className={5} id="repeat_password"></input><br />
       {this.state.x ? <NavLink className={s.navlink} to="/registration">
       <button onClick = {this.onClick}>Reg</button></NavLink> :
-      <NavLink className={s.navlink} to="/main_menu">
+      <NavLink className={s.navlink} to="/">
       <button onClick = {this.onClick}>Reg</button></NavLink>}
 
     </div>
