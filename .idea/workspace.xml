@@ -3,26 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ca74ea8d-965d-488b-b8a8-ec09ec2cdd2a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/mainpage/items/item.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/mainpage/items/item.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/mainpage/items/some_item/some_item.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/mainpage/items/some_item/some_item.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/mainpage/items/some_item/some_item.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/mainpage/items/some_item/some_item.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/mainpage/mainPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/mainpage/mainPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/mainpage/myWish.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/mainpage/myWish.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/mainpage/profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/mainpage/profile.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/menu/Menu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menu/Menu.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/menu/Menu.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menu/Menu.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/menu/log/forms/forms.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menu/log/forms/forms.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/menu/log/forms/forms.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menu/log/forms/forms.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/menu/log/logged.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menu/log/logged.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/menu/log/unlogged.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menu/log/unlogged.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/actions/books.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions/books.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/actions/login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions/login.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/actions/selectAction.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions/selectAction.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,10 +69,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="269" y="114" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1619464067611" />
-    <state x="465" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1619602692881">
+    <state x="465" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1619610639456">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="465" y="364" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1619602692881" />
+    <state x="465" y="364" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1619610639456" />
     <state x="425" y="209" width="672" height="677" key="run.anything.popup" timestamp="1619604091396">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
