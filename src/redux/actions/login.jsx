@@ -1,6 +1,6 @@
 const initialState = {
     items:[],
-    logged:false
+    logged:null
 }
 
 export default(state = initialState,action) => {

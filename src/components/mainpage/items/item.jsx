@@ -6,7 +6,7 @@ export default (props) =>{
   const isReady = {props}
 
   return(
-    <ul className={s.int}>
+    <ul >
       {!isReady?
         "Loading...":
         props.books && props.books.map(item => (

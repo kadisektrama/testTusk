@@ -11,7 +11,7 @@ export default (props) => {
           item.password === ref2.current.value)
     if(name){
         console.log("TRUE")
-        alert("correct")
+
         props.logged("")
         if(name.role == "passenger"){
 
@@ -21,7 +21,7 @@ export default (props) => {
         }
     }else{
         console.log("FALSE")
-        alert("incorrect")
+        alert("Неправильный пароль")
     }
 
   }

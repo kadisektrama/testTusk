@@ -12,6 +12,9 @@ export default  (state=initialState,action) => {
     case 'SET_IS_READY':{
       return{...state,isReady:action.payload}
     }
+    case "SEARCH_BOOKS":{
+        return {...state,search:action.payload,isReady:true};
+    }
     case "ADD_SEARCHING":{
         break;
     }

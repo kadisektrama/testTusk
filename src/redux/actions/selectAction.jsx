@@ -51,10 +51,18 @@ export const selectUsers = payload =>{
 }
 
 export const unlogged = payload => {
-  console.log("unlogining")
-  return{
-    type:"UNLOGGED",
-    payload:payload
-  }
-}
+   console.log("unlogining")
+   return{
+     type:"UNLOGGED",
+     payload:payload
+   }
+ }
+
+ export const searchBooks = payload => {
+   console.log("search")
+   return{
+     type:"SEARCH_BOOKS",
+     payload:payload
+   }
+ }
 

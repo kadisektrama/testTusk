@@ -3,17 +3,19 @@ import React from "react"
 export class Profile extends React.Component {
     constructor(props){
       super(props);
-      this.onClick = this.onClick.bind(this)
+        this.onClick = this.onClick.bind(this)
      }
     onClick(){
-        this.props.unlogged("")
-    }
+             localStorage.setItem('logged', "false");
+             window.location.reload();
+         }
     render(){
       return(
         <div>
         <p><b center>Profile!</b></p>
+
         <br/>
-        <button onClick={this.onClick}>Sign out</button>
+
         </div>
       )
     }

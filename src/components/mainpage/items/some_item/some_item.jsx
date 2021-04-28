@@ -2,22 +2,29 @@ import React from "react"
 
 import s from "./some_item.module.scss"
 
-export default (props)=>{
-  const click = () => {
-    props.addBookToBox(
-      {"name":props.title,
-      "id":props.id,
-      "price":props.price,
-      }
-    )
-  }
-  return(
-  <div className={s.int}>
-  <li >{props.id + 1}  {props.title} id:{props.id} <br />
-  <img className={s.im} src={props.image} alt="sosi xyu" /> <br />
-  <div className={s.average}><span className={s.t}>Price: {props.price}
-  </span><button onClick={click} className={s.b}>Add book</button></div>
-   </li>
-   </div>
-  )
+class App extends React.Component {
+  constructor(props){
+    super(props);
+
+    }
+    click(a){
+
+        localStorage.setItem("currentBook",a)
+    }
+
+    render(){
+            return(
+             <div className={s.int}>
+             <li >{this.props.id + 1}  {this.props.title}  <br />
+             <img className={s.im} src={this.props.image} alt="sosi xyu" /> <br />
+             <div className={s.average}><span className={s.t}>Цена: {this.props.price}
+             </span><a onClick={()=>{this.click(this.props.id)}} href={`/book/${this.props.id}`} className={s.b}>Читать...</a></div>
+              </li>
+              </div>
+             )
+    }
 }
+
+
+
+export default App;
